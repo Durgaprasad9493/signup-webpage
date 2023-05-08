@@ -1,0 +1,79 @@
+form{
+	max-width: 500px;
+	margin: 0 auto;
+	background-color: gainsboro;
+	padding: 16px;
+	border-radius: 5px;
+}
+body{
+	font-size: 16px;
+	padding: 16px;
+	box-sizing: border-box;
+}
+h1{
+	font-size: 24px;
+	color:black;
+	font-weight: 700;
+	text-align:center;
+}
+legend{
+	font-size: 20px;
+	color: black;
+	display: flex;
+	align-items: center;
+
+}
+fieldset{
+	margin-top: 32px;
+	border: 0;
+}
+legend span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: limegreen;
+	font-size: 16px;
+	color: white;
+	margin-right: 12px;
+
+}
+label{
+	display: block;
+	margin: 12px 0 8px 0;
+	color: black;
+}
+.form-control{
+	display: block;
+	width: 100%;
+	background-color: #E8EEEF;
+	padding: 12px 14px;
+	border:0;
+	border-top: 1px solid gainsboro;
+	outline: 0;
+	color: gray;
+	margin-bottom: 24px;
+
+}
+select{
+	background-color: gainsboro;
+	color: gray;
+	display: block;
+	width: 100%;
+	margin-bottom: 24px;
+}
+button{
+	background-color: limegreen;
+	width: 100%;
+	padding: 16px;
+	border: 0;
+	color: white;
+	margin-top: 24px;
+	border-radius: 6px;
+	font-size: 18px;
+}
+.color{
+	color: red;
+}
